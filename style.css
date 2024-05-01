@@ -1,0 +1,129 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <400>;
+    font-style: normal;
+}
+
+p, ul, ol, td{
+    color: hsl(30, 10%, 34%);
+}
+
+hr{
+    border-color: hsl(30, 18%, 87%);
+    opacity: 25%;
+}
+
+.recipe_card{
+    border-radius: 10px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.headimg_omelette{
+    align-items: center;
+    width: 250px;
+    border-radius: 10px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+}
+
+h1, h2{
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.recipe_text{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.head_prep{
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+.text_color_head{
+    color: hsl(14, 45%, 36%);
+}
+
+.text_color_2{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+}
+
+ul li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.prep_li li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.we-container{
+    border-radius: 10px;
+    background-color: hsl(330, 100%, 98%);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+h1{
+    color: hsl(24, 5%, 18%);
+}
+
+p li td{
+    font-size: 16px;
+}
+
+ul li{
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
+ol li{
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
+td{
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nutrition_table{
+    padding-bottom: 35px;
+}
+
+.tborder{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
